@@ -1,0 +1,60 @@
+/* src/Component/Pages/Order.css */
+
+.orders {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-item {
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item div {
+    margin-bottom: 10px;
+  }
+  
+  .order-item div strong {
+    font-weight: bold;
+  }
+  
+  .orders .order-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orders .order-item ul li {
+    background-color: #e8e8e8;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .orders .order-item ul li strong {
+    font-weight: bold;
+  }
+  
+  .order-item .order-item div span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  

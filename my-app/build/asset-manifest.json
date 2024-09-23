@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/fierce_acc/static/css/main.d6d778bb.css",
+    "main.js": "/fierce_acc/static/js/main.d818361d.js",
+    "static/js/511.3cd1d671.chunk.js": "/fierce_acc/static/js/511.3cd1d671.chunk.js",
+    "static/media/fierce__-removebg-preview.png": "/fierce_acc/static/media/fierce__-removebg-preview.21225dc627f1aafe9d99.png",
+    "static/media/instagram-removebg-preview.png": "/fierce_acc/static/media/instagram-removebg-preview.aaf9f5dacd41718a56ef.png",
+    "static/media/whatsapp-removebg-preview.png": "/fierce_acc/static/media/whatsapp-removebg-preview.4f101f0739dafc101286.png",
+    "static/media/tictok-removebg-preview.png": "/fierce_acc/static/media/tictok-removebg-preview.16a9dd8b86b5bfbde423.png",
+    "index.html": "/fierce_acc/index.html",
+    "main.d6d778bb.css.map": "/fierce_acc/static/css/main.d6d778bb.css.map",
+    "main.d818361d.js.map": "/fierce_acc/static/js/main.d818361d.js.map",
+    "511.3cd1d671.chunk.js.map": "/fierce_acc/static/js/511.3cd1d671.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6d778bb.css",
+    "static/js/main.d818361d.js"
+  ]
+}

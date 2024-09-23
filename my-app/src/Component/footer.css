@@ -1,0 +1,32 @@
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  gap: 20px; /* Space between each icon */
+  margin-top: 10px;
+}
+
+.footer-icon-img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+}
+
+.footer-icon-img:hover {
+  transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+.footer p {
+  margin-bottom: 10px;
+}

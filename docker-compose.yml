@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .C:\Users\ANITAH\Desktop\RECESS PJCT\fierce_app
+      dockerfile: Dockerfile # Specify the backend Dockerfile
+    ports:
+      - "5000:5000"  # Map container port 5000 to host port 5000
+    environment:
+      - FLASK_ENV=production  # You can set your environment variables here
+    volumes:
+      - .:/app  # Mount the current directory to the app directory in the container
+    depends_on:
+      - frontend  # Ensure backend starts after frontend if necessary
+
+  frontend:
+    build:
+      context: .C:\Users\ANITAH\Desktop\RECESS PJCT\my-app
+      dockerfile: Dockerfile # Specify the frontend Dockerfile
+    ports:
+      - "3000:3000"  # Map container port 3000 to host port 3000
+    depends_on:
+      - backend  # Ensure frontend waits for backend to be up if necessary

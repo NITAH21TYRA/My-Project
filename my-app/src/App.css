@@ -1,0 +1,217 @@
+/* Styles for CreateAccount component */
+.outer-container {
+  background-color: #f0f0f0; /* Background color for the outer container */
+  padding: 20px;
+}
+
+.inner-box {
+  background-color: #fff; /* Background color for the inner box */
+  padding: 20px;
+  border-radius: 10px; /* Optional: add some rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add some shadow for better visibility */
+}
+
+/* Rest of your CSS styles */
+.App {
+  text-align: center;
+  background-color:#D9C196;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(246, 235, 222);
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input[type="text"].active {
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #aa4b14fa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color:#BF8450;
+  color: #fff;
+  padding: 10px 20px; 
+}
+
+nav .navbar-brand {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-weight: bold; 
+  text-decoration: none;
+  color: beige;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+}
+
+.nav-links li {
+  margin-right: 20px; 
+  position: relative;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #f3e6dffa;
+}
+
+.nav-links li a:hover::after,
+.nav-links li a.active::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #c8a996fa;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+.section_padding {
+  padding: 4rem 4rem;
+}
+
+.footer {
+  background-color:#593825;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 15px;
+}
+
+.footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: beige;
+}
+
+.footer-links, .footer-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link, .footer-icon-link {
+  text-decoration: none;
+  color: rgb(219, 201, 168);
+  margin-bottom: 8px;
+}
+
+.footer-icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-info {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #dee2e6;
+}
+
+/* src/Component/Pages/Cart.css */
+.cart {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.cart h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.cart-items {
+  margin-bottom: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.total-cost {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.order-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ca8d5b;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #77441b;
+}
+

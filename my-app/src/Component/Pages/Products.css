@@ -1,0 +1,158 @@
+.products-section {
+  margin: 2rem;
+}
+
+.products-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.product-card {
+  border: 1px solid rgb(214, 154, 91);
+  border-radius: 0.5rem;
+  width: 30%;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid rgb(214, 154, 91);
+  border-radius: 0.5rem 0.5rem 0 0; /* Rounded corners only at the top */
+}
+
+.product-details {
+  padding: 10px;
+  border: 1px solid rgb(214, 154, 91);
+  border-top: none; /* Remove top border to align with image */
+  border-radius: 0 0 0.5rem 0.5rem; /* Rounded corners only at the bottom */
+  background-color: rgb(138, 85, 35);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-details .product-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-details .product-info > div {
+  margin: 3px 0;
+}
+
+.product-card label {
+  font-weight: 600;
+  margin-right: 0.2rem;
+}
+
+.add-to-cart {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.add-to-cart button {
+  background-color: #f3d8b9f7;
+  border: none;
+  color: rgb(249, 247, 244);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.add-to-cart .cart-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.add-product-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.padded-box {
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.product-image-container {
+  padding: 0; /* Reset padding to 0 */
+}
+
+.welcome-note {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.sliding-text {
+  animation: slide 10s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Add this to your existing CSS file or create a new one */
+
+.sliding-note {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Start off-screen */
+  width: 100%;
+  background-color: #4CAF50; /* Customize background color */
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  transition: right 0.5s ease-out;
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.sliding-note.active {
+  right: 0; /* Slide into view */
+}
+/* Add this to your home.css or main CSS file */
+.marquee-container {
+  position: relative;
+  overflow: hidden;
+  /* Customize background color */
+  color: rgb(5, 4, 4);
+  padding: 15px;
+  font-size: 1.2rem;
+  height: 50px; /* Adjust height as needed */
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
